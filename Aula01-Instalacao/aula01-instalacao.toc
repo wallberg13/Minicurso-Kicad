@@ -1,0 +1,5 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{Instala\IeC {\c c}\IeC {\~a}o e Download}{4}{0}{2}
+\beamer@sectionintoc {3}{Download de Bibliotecas - Somente Windows}{6}{0}{3}
+\beamer@sectionintoc {4}{Download de Bibliotecas - Linux}{7}{0}{4}
