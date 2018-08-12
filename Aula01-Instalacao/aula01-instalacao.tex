@@ -42,8 +42,27 @@
 \end{frame}
 
 \section{Introdução}
-\begin{frame}
-		
+\begin{frame}{Introdução}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item Software para elaboração de placas de circuito impresso, as PCBs.
+				\item Ferramenta \textit{Open-Source}.
+			\end{itemize}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1\textwidth]{Imagens/exemplo.png}
+				\caption{Exemplo de um projeto \textit{open hardware}.}
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\centering
+				\includegraphics[width=1.0\textwidth]{Imagens/KiCad-Logo.eps}
+				\caption{Logo KiCad.}
+			\end{figure}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Instalação e Download}
@@ -53,15 +72,17 @@
 		\begin{itemize}
 			\item \url{http://downloads.kicad-pcb.org/windows/stable/kicad-5.0.0-x86\_64.exe}
 		\end{itemize}
-		Depois de baixado, fazer a instalação clássica.
+		Depois de baixado, fazer a instalação clássica.\\
+		Não é preciso fazer instalação de biblioteca adicional.
 	\end{block}
 	\begin{block}{Ubuntu}
 		Pelos comandos no terminal:
 		\begin{itemize}
 			\item \texttt{sudo add-apt-repository --yes ppa:js-reynaud/kicad-5}
 			\item \texttt{sudo apt update}
-			\item \texttt{sudo apt install kicad}
+		\item \texttt{sudo apt install kicad}
 		\end{itemize}
+		Não é preciso fazer a instalação de biblioteca adicional.
 	\end{block}
 \end{frame}
 
@@ -71,29 +92,7 @@
 		\begin{itemize}
 			\item \texttt{sudo pacman -S kicad}
 		\end{itemize}
-	\end{block}
-\end{frame}
-
-\section{Download de Bibliotecas - Somente Windows}
-\begin{frame}{Download de Bibliotecas - Somente Windows}
-	Pelos os links:
-	\begin{itemize}
-		\item Símbolos: \\\url{https://github.com/KiCad/kicad-symbols/archive/master.zip}
-		\item \textit{Footprints}: \\\url{https://github.com/KiCad/kicad-footprints/archive/master.zip}
-		\item Componentes em 3D \\\url{https://github.com/kicad/kicad-packages3d/archive/master.zip}
-	\end{itemize}
-\end{frame}
-
-\section{Download de Bibliotecas - Linux}
-\begin{frame}{Download de Bibliotecas - Linux}
-	\begin{block}{Ubuntu}
-		Pelo comando:
-		\begin{itemize}
-			\item \texttt{sudo apt-get install kicad-}
-		\end{itemize}
-	\end{block}
-	\begin{block}{Arch Linux}
-		Pelo comando:
+		Para instalar as bibliotecas adicionais (deixando a instalação completa):
 		\begin{itemize}
 			\item \texttt{sudo pacman -S kicad-library kicad-library-3d}
 		\end{itemize}
