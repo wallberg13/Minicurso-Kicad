@@ -1,0 +1,9 @@
+\babel@toc {brazil}{}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{Desenhando o Esquem\IeC {\'a}tico}{8}{0}{2}
+\beamer@sectionintoc {3}{\textit {Annotate} - Gerando sequ\IeC {\^e}ncia de componentes}{16}{0}{3}
+\beamer@sectionintoc {4}{``Compilando'' o esquem\IeC {\'a}tico com a Joaninha.}{20}{0}{4}
+\beamer@sectionintoc {5}{Gerando o \textit {Netlist}}{29}{0}{5}
+\beamer@sectionintoc {6}{Associando os componentes descritos no \textit {Netlist} \IeC {\`a} componentes reais.}{32}{0}{6}
+\beamer@sectionintoc {7}{Fazendo roteamento da PCB.}{46}{0}{7}
+\beamer@sectionintoc {8}{Imprimindo o \textit {layout} da PCB}{66}{0}{8}
