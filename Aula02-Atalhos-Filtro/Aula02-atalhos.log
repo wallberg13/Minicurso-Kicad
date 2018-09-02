@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.16)  18 AUG 2018 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.16)  20 AUG 2018 12:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,6 +1032,10 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 ) (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 57.
+
 (./Aula02-atalhos.aux)
 \openout1 = `Aula02-atalhos.aux'.
 
@@ -1857,10 +1861,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 35176 strings out of 492649
- 762828 string characters out of 6135778
- 1023164 words of memory out of 5000000
- 38198 multiletter control sequences out of 15000+600000
+ 35179 strings out of 492649
+ 762851 string characters out of 6135778
+ 1023438 words of memory out of 5000000
+ 38201 multiletter control sequences out of 15000+600000
  23192 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,67p,781b,870s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1875,7 +1879,7 @@ ype1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Aula02-atalhos.pdf (71 pages, 2227704 bytes).
+Output written on Aula02-atalhos.pdf (71 pages, 2227976 bytes).
 PDF statistics:
  2088 PDF objects out of 2487 (max. 8388607)
  1921 compressed objects within 20 object streams
